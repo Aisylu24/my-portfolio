@@ -1,0 +1,25 @@
+.footerBlock {
+    background-color: #f5f5a2;
+    height: 30vh;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialNetworks {
+    display: flex;
+    border: 1px solid;
+    gap: 100px;
+}
+
+.socialNetworksItems {
+    width: 50px;
+    height: 50px;
+    background-color: #f3e778;
+}
+
+.rights {
+font-weight: bold;
+}

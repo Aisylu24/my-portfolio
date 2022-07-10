@@ -1,12 +1,12 @@
 .hireBlock {
-    height: 20vh;
+    height: 30vh;
     background-color: lightsteelblue;
 }
 
 .hire {
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
-    border: 1px solid;
 }
 
 .hireTitle {

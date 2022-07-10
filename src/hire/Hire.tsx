@@ -7,7 +7,7 @@ const Hire = () => {
         <div className={s.hireBlock}>
             <div className={`${commonStyle.container} ${s.hire}`}>
             <h2 className={s.hireTitle}>Рассматриваю вариант удаленной работы</h2>
-            <button className={s.hireMeButton} onClick={()=>{alert('Hire me')}}>Hire me</button>
+            <button className={s.hireMeButton} onClick={()=>{alert('Нанять меня')}}>Hire me</button>
             </div>
         </div>
     );
