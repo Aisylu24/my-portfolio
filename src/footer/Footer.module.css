@@ -11,7 +11,8 @@
 .socialNetworks {
     display: flex;
     border: 1px solid;
-    gap: 100px;
+    gap: 80px;
+    flex-wrap: wrap;
 }
 
 .socialNetworksItems {
