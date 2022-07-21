@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Projects.module.css'
+import s from './Project.module.css'
 
 
 type ProjectType={
@@ -9,8 +9,12 @@ type ProjectType={
 
 const Project = (props: ProjectType) => {
     return (
-        <div>
-            <div className={s.photo}></div>
+        <div className={s.project}>
+
+            <div className={s.imgLinkContainer}>
+                <a href={'https://aisylu24.github.io/my-portfolio/'} className={s.projectLink}>See more</a>
+            </div>
+
             <h3 className={s.projectTitle}>{props.title}</h3>
             <div className={s.description}>{props.description}</div>
         </div>

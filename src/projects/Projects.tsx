@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "./Projects.module.css"
-import Project from "./Project";
+import Project from "./Project/Project";
 import commonStyle from "../common/styles/Container.module.css";
 
 const Projects = () => {

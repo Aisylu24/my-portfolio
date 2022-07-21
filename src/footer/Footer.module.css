@@ -1,11 +1,12 @@
 .footerBlock {
     background-color: #f5f5a2;
-    height: 30vh;
+    min-height: 30vh;
 }
 
 .footerContainer {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .socialNetworks {
