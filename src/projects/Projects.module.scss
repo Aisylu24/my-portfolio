@@ -8,35 +8,6 @@
     justify-content: start;
 }
 
-.projectsTitle {
-    background-color: rgba(255, 255, 255, 0.9);
-    margin: 0 0 30px;
-    font-family: Montserrat,sans-serif;
-    text-transform: uppercase;
-    font-size: 25px;
-    color: rgb(29, 53, 161);
-    line-height: 1.2;
-    letter-spacing: 3px;
-    position: relative;
-}
-
-.projectsTitle::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 5px;
-    background: #f5a690;
-    bottom:-25px;
-    left:50%;
-    transform: translate(-50%, 50%);
-}
-
-
-
-.projectsTitle h2 {
-    margin: 0;
-}
-
 .projects {
     flex-wrap: wrap;
     border: 1px solid;
@@ -44,8 +15,8 @@
     width: 100%;
     /*justify-content: space-around; при изменении масшатабов ведет себя нормально, меняю, чтобы практиковать media */
     justify-content: space-between;
+    margin-top: 30px;
 }
-
 
 @media screen and (max-width: 903px) {
     .projects {

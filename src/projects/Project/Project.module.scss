@@ -5,20 +5,35 @@
     flex-direction: column;
     border: 1px solid;
     align-items: center;
+    background-color: #f5a690;
 }
 
-.imgLinkContainer {
+.img {
     background-image: url("https://kissflow.com/hubfs/project-creative-banner-1.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 377px;
     width: 375px;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.img::before {
+    position: absolute;
+    content: '';
+    background-color:white;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4
 }
 
 .projectLink {
+    position: relative;
     background-color: rgba(255, 255, 255, 0.56);
     font-weight: bold;
     height: 25px;
@@ -30,16 +45,30 @@
 }
 
 .projectLink:hover {
+    background-color: #f5a690;
 
+}
+
+.projectInfo {
+    text-align: center;
+    padding: 10px;
 }
 
 .projectTitle {
-    background-color: plum;
+    font-family: Montserrat,sans-serif;
+    color: rgb(29, 53, 161);
+    font-size: 30px;
+    margin: 0 0 5px;
+    line-height: 1.2;
 }
 
+
 .description {
-    background-color: plum;
+    color: rgb(29, 53, 161);
+    font-size: 15px;
+    line-height: 1.8;
 }
+
 
 @media screen and (max-width: 372px) {
     .imgLinkContainer {
