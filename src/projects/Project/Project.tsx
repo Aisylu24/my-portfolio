@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Project.module.scss'
+import s from './Project.modules.scss'
 
 
 type ProjectType={
