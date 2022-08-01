@@ -1,19 +1,18 @@
 .footerBlock {
     background-color: #f5f5a2;
-    min-height: 30vh;
+
 }
 
 .footerContainer {
-    display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .socialNetworks {
     display: flex;
-    border: 1px solid;
-    gap: 80px;
-    flex-wrap: wrap;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .socialNetworksItems {

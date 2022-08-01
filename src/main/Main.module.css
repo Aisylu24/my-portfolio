@@ -1,17 +1,21 @@
 .mainBlock {
     height: 100vh;
-    background-color: moccasin;
+    background-color: rgb(29, 53, 161);
+
 }
 
 
 .text {
     width: 350px;
-    background-color: #fccd88;
+   border: 1px solid #f5a690;
+    padding: 20px;
+    font-family: Montserrat,sans-serif;
+    color: white;
 }
 
 .photo {
     width: 300px;
     height: 400px;
-    background-color: #fccd88;
+    background-color: #f5a690;
 }
 

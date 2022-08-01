@@ -11,8 +11,8 @@ export const Contacts = () => {
                     <input placeholder={'your name'}/>
                     <input placeholder={'your phone number'}/>
                     <textarea placeholder={'what project do you want to do?'}/>
+                    <button type={'submit'} onClick={()=> alert("your contact was sent")} className={s.button}>Send</button>
                 </form>
-                <button onClick={()=> alert("your contact was sent")} className={s.button}>Send</button>
             </div>
         </div>
     )

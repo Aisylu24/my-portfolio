@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className={s.projectsBlock}>
             <div className={`${commonStyle.container} ${s.projectsContainer}`}>
-                <h2 className={s.projectsTitle}>My projects</h2>
+                <div className={s.projectsTitle}> <h2 >Projects</h2></div>
                 <div className={s.projects}>
                     <Project title={"Title"} description={'React JS allows complete flexibility to the developer. '}/>
                     <Project title={"Title"}

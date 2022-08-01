@@ -1,11 +1,11 @@
 .contactsBlock {
-    height: 100vh;
+    height: 50vh;
     background-color: #b0d270;
 }
 
 .contactsContainer {
-    display: flex;
     flex-direction: column;
+    justify-content: center;
     border: 1px solid;
 }
 
@@ -16,15 +16,26 @@
 .form {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
-    gap: 5px;
-    font-family: serif;
+    gap: 10px;
+    width: 50%;
+    background-color:#556e27 ;
+    border: 1px solid #556e27;
+    padding-top:10px;
 }
 
 .button {
     background-color: #556e27;
-    height: 50px;
-    width: 100px;
-    font-size: large;
+    padding: 10px 20px;
+    margin: 5px;
 }
+
+.form button {
+   width: 50%;
+    align-self: center;
+}
+
+@media screen and (max-width: 912px) {
+    .form {width: 80%;}
+}
+
 

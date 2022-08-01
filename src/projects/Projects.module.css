@@ -1,6 +1,6 @@
 .projectsBlock {
-    min-height: 100vh;
-    background-color: #ead6ea;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding:50px 0;
 }
 
 .projectsContainer {
@@ -9,28 +9,46 @@
 }
 
 .projectsTitle {
-    background-color: plum;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 0 30px;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(29, 53, 161);
+    line-height: 1.2;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.projectsTitle::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: #f5a690;
+    bottom:-25px;
+    left:50%;
+    transform: translate(-50%, 50%);
+}
+
+
+
+.projectsTitle h2 {
+    margin: 0;
 }
 
 .projects {
     flex-wrap: wrap;
     border: 1px solid;
     display: flex;
-    justify-content: space-around;
     width: 100%;
+    /*justify-content: space-around; при изменении масшатабов ведет себя нормально, меняю, чтобы практиковать media */
+    justify-content: space-between;
 }
 
-.photo {
-    width: 200px;
-    height: 250px;
-    background-color: plum;
-}
 
-.projectTitle {
-    background-color: plum;
-}
-
-.description {
-    background-color: plum;
-    width: 200px;
+@media screen and (max-width: 903px) {
+    .projects {
+        justify-content: center;
+    }
 }

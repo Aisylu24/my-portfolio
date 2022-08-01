@@ -6,7 +6,7 @@ const Main = () => {
         <div className={s.mainBlock}>
             <div className={commonStyle.container}>
             <div className={s.text}>
-                <span>Hi there</span>
+                <span>Welcome!</span>
                 <h1>I am Timirshina Aysylu</h1>
                 <p>Frontend Developer</p>
             </div>
