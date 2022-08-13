@@ -1,6 +1,5 @@
 import React from 'react';
-import s from './Project.modules.scss'
-
+import s from './Project.module.scss'
 
 type ProjectType={
     title: string

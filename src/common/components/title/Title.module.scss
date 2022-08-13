@@ -1,0 +1,36 @@
+.title {
+    z-index: 10;
+    -webkit-text-stroke: 1px rgb(29, 53, 161);
+    -webkit-text-fill-color: transparent;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0;
+    min-width: 0;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 40px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    font-family: system-ui;
+    &::before {
+        background-image: -webkit-linear-gradient(left,transparent,#f5a690,transparent);
+        content: '';
+        position: absolute;
+        width: 250px;
+        height: 2px;
+        bottom:-10px;
+        left:50%;
+        transform: translate(-50%, 50%);
+    }
+    h2 {
+        margin: 10px 0;
+    }
+}

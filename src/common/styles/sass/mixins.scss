@@ -1,0 +1,6 @@
+@mixin text($fontFamily,$fontSize, $line-height) {
+  font-family: Montserrat,sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  color: rgb(29, 53, 161);
+}

@@ -1,17 +1,19 @@
 import React from "react"
 import s from "./Contacts.module.css"
 import commonStyle from "../common/styles/Container.module.css";
+import Title from "../common/components/title/Title";
 
 export const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={`${commonStyle.container} ${s.contactsContainer}`}>
-                <h2 className={s.title}>Contacts</h2>
+                <Title title={'Get in touch'}/>
                 <form className={s.form}>
-                    <input placeholder={'your name'}/>
-                    <input placeholder={'your phone number'}/>
-                    <textarea placeholder={'what project do you want to do?'}/>
-                    <button type={'submit'} onClick={()=> alert("your contact was sent")} className={s.button}>Send</button>
+                    <input className={s.edit} placeholder={'Your name'}/>
+                    <input className={s.edit} placeholder={'Your phone number'}/>
+                    <textarea className={s.edit} placeholder={'Your message'}/>
+                    <button type={'submit'} onClick={()=>{
+                        console.log('hey')}} className={s.button}>Send</button>
                 </form>
             </div>
         </div>

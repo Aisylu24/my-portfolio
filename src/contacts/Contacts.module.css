@@ -1,6 +1,7 @@
 .contactsBlock {
     height: 50vh;
-    background-color: #b0d270;
+    /*background-color: #b0d270;*/
+    background-color: white;
 }
 
 .contactsContainer {
@@ -9,33 +10,53 @@
     border: 1px solid;
 }
 
-.title {
-    background-color: #556e27;
-}
-
 .form {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 50%;
-    background-color:#556e27 ;
-    border: 1px solid #556e27;
+    background-color:white ;
     padding-top:10px;
 }
 
 .button {
-    background-color: #556e27;
+    background-color: #f5a690;
     padding: 10px 20px;
     margin: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: rgb(29, 53, 161);
+    border:1px solid rgb(29, 53, 161);
+    border-radius: 60px;
+}
+
+.button:active {
+    border: 3px solid rgb(29, 53, 161);
+
 }
 
 .form button {
-   width: 50%;
+   width: 40%;
     align-self: center;
+}
+
+.form input textarea {
+    font-family: Montserrat,sans-serif;
 }
 
 @media screen and (max-width: 912px) {
     .form {width: 80%;}
 }
 
-
+.edit {
+    outline-color: rgb(29, 53, 161);
+    border: #f5a690;
+    border-bottom:1px solid rgb(29, 53, 161);
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 1.8;
+    background: #FFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}

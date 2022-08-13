@@ -1,12 +1,12 @@
 .projectsBlock {
     background-color: rgba(255, 255, 255, 0.9);
-    padding:50px 0;
+    padding:25px 0;
     .projectsContainer {
         flex-direction: column;
         justify-content: start;
         .projects {
             flex-wrap: wrap;
-            border: 1px solid;
+            //border: 1px solid;
             display: flex;
             width: 100%;
             /*justify-content: space-around; при изменении масшатабов ведет себя нормально, меняю, чтобы практиковать media */
