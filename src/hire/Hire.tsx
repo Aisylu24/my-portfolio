@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Hire.module.css'
+import s from './Hire.module.scss'
 import commonStyle from "../common/styles/Container.module.css";
 
 const Hire = () => {

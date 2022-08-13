@@ -1,0 +1,19 @@
+@import '../../common/styles/sass/variables';
+
+.nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  .link {
+    color: $basicColor;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    &:hover {
+      color: $mainColor;
+    }
+    &:active {
+      color: $mainColor;
+    }
+  }
+}

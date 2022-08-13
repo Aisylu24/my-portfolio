@@ -1,10 +1,11 @@
+@import '../../styles/sass/variables';
 .title {
     z-index: 10;
-    -webkit-text-stroke: 1px rgb(29, 53, 161);
+    -webkit-text-stroke: 1px $secondColor;
     -webkit-text-fill-color: transparent;
     height: auto;
     width: auto;
-    color: rgb(255, 255, 255);
+    color: $basicColor;
     text-decoration: none;
     white-space: nowrap;
     min-height: 0;
@@ -21,7 +22,7 @@
     visibility: visible;
     font-family: system-ui;
     &::before {
-        background-image: -webkit-linear-gradient(left,transparent,#f5a690,transparent);
+        background-image: -webkit-linear-gradient(left,transparent,$mainColor,transparent);
         content: '';
         position: absolute;
         width: 250px;

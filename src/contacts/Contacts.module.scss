@@ -1,0 +1,44 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.contactsBlock {
+  height: 70vh;
+  background-color: $basicColor;
+  .contactsContainer {
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    background-color: $basicColor;
+    padding-top: 10px;
+    @media screen and (max-width: 912px) {
+      width: 80%;
+    }
+    .button {
+      background-color: $mainColor;
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 18px;
+      font-family: "Calibri", sans-serif;
+      color: $secondColor;
+      border: 1px solid $secondColor;
+      border-radius: 60px;
+      width: 40%;
+      align-self: center;
+      &:active {
+        border: 2px solid $secondColor;
+      }
+    }
+    .edit {
+      outline-color: $secondColor;
+      border: none;
+      border-bottom: 1px solid $secondColor;
+      background: #FFF;
+      @include text("Calibri Light", sans-serif, 18px, 1.8, $secondColor);
+    }
+  }
+}
+
+

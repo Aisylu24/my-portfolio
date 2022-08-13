@@ -6,10 +6,8 @@
         justify-content: start;
         .projects {
             flex-wrap: wrap;
-            //border: 1px solid;
             display: flex;
             width: 100%;
-            /*justify-content: space-around; при изменении масшатабов ведет себя нормально, меняю, чтобы практиковать media */
             justify-content: space-between;
             margin-top: 30px;
             @media screen and (max-width: 903px) {

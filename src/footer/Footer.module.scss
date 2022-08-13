@@ -1,0 +1,40 @@
+@import '../common/styles/sass/variables';
+
+.footerBlock {
+  background-color: $secondColor;
+
+  .footerContainer {
+    .myName {
+      color: $basicColor;
+    }
+
+    .socialNetworks {
+      display: flex;
+      width: 300px;
+      align-items: center;
+      justify-content: space-between;
+      height: 100px;
+
+      .icons {
+        width: 50px;
+        height: 50px;
+        background-color: $secondColor;
+        align-self: center;
+        color: $basicColor;
+      }
+    }
+
+    .rights {
+      color: $basicColor;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+    }
+  }
+}
+
+
+
+
+
+
+
