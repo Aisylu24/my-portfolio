@@ -26,7 +26,7 @@ let imgUrl;
               <Title title={'Projects'} />
                 <div className={s.projects}>
                     <Project style={planner} title={"Planner"}  projectLink={''} description={'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / React-router-dom / Unit tests'}/>
-                    <Project style={counter} title={"Counter"}  projectLink={''} description={'TypeScript / React / Redux'}/>
+                    <Project style={counter} title={"Counter"}  projectLink={'https://aisylu24.github.io/counter'} description={'TypeScript / React / Redux'}/>
                     <Project style={socialNet} projectLink={''} title={"Social Network"}
                              description={'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / React-router-dom / Unit tests'}/>
                 </div>

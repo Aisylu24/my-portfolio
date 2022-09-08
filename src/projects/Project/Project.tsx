@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Project.module.scss'
-import {NavLink} from "react-router-dom";
 
 type ProjectType={
     title: string
@@ -14,7 +13,7 @@ const Project = (props: ProjectType) => {
         <div className={s.project}>
 
             <div className={s.img} style={props.style}>
-                <NavLink className={s.projectLink}to={props.projectLink}>See more</NavLink>
+                <a  className={s.projectLink} href={props.projectLink}>See more</a>
             </div>
 <div className={s.projectInfo}>
             <h3 className={s.projectTitle}>{props.title}</h3>

@@ -5,10 +5,13 @@
     background-color: $mainColor;
   .text {
     width: 350px;
-    border: 1px solid $secondColor;;
     padding: 20px;
     font-family: Montserrat,sans-serif;
-    color: $basicColor;
+    color: $secondColor;
+    .locationIcon {
+      height: 30px;
+      width: 30px;
+    }
   }
   .photo {
     width: 300px;

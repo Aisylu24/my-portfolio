@@ -2,7 +2,6 @@ import React from 'react';
 import s from './Skills.module.scss'
 import commonStyle from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
-import Title from "../common/components/title/Title";
 
 
 const Skills = () => {
@@ -21,7 +20,6 @@ const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${commonStyle.container} ${s.skillsContainer}`}>
-               <Title title={'Skills'}/>
                 <div className={s.skills}>
                     <Skill title={'React'} iconLink={skillsLinks.react}/>
                     <Skill title={'Redux'} iconLink={skillsLinks.redux} />
