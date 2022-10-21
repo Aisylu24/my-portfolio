@@ -1,13 +1,15 @@
 @import '../../common/styles/sass/variables';
 
 .nav {
-  width: 300px;
+  width: 500px;
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
+  margin-right: 250px;
   .link {
     color: $basicColor;
-    font-family: Montserrat, sans-serif;
+    font-family: "Cordia New", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     text-decoration: none;
     &:hover {
       color: $mainColor;

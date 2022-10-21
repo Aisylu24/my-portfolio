@@ -3,10 +3,19 @@
 .mainBlock {
     height: 100vh;
     background-color: $mainColor;
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
   .text {
-    width: 350px;
+    width: 450px;
     padding: 20px;
-    font-family: Montserrat,sans-serif;
+    font-family: "Cordia New", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     color: $secondColor;
     .locationIcon {
       height: 30px;
@@ -16,7 +25,7 @@
   .photo {
     width: 300px;
     height: 400px;
-    background-color: $secondColor;
+    border: 2px white solid;
   }
 }
 

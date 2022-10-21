@@ -2,7 +2,7 @@ import React from 'react';
 import {Contacts} from "../../contacts/Contacts";
 import Skills from "../../skills/Skills";
 import Projects from "../../projects/Projects";
-import Main from "../../main/Main";
+import {Main} from "../../main/Main";
 import {Routes, Route, Navigate} from 'react-router-dom'
 
 export const PATH = {

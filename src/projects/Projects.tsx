@@ -20,6 +20,10 @@ let imgUrl;
         color: 'blue',
         backgroundImage: `url(${imgUrl})`,
     }
+    const cards = {
+        color: 'blue',
+        backgroundImage: `url(${imgUrl})`,
+    }
     return (
         <div className={s.projectsBlock}>
             <div className={`${commonStyle.container} ${s.projectsContainer}`}>
@@ -29,6 +33,8 @@ let imgUrl;
                     <Project style={counter} title={"Counter"}  projectLink={'https://aisylu24.github.io/counter'} description={'TypeScript / React / Redux'}/>
                     <Project style={socialNet} projectLink={''} title={"Social Network"}
                              description={'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / React-router-dom / Unit tests'}/>
+                    <Project style={cards} projectLink={''} title={"Cards"}
+                             description={'TypeScript / React / MUI / Redux-Toolkit / Redux-Thunk / Axios / React-router-dom / Unit tests'}/>
                 </div>
             </div>
         </div>
