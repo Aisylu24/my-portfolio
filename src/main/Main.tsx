@@ -5,7 +5,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLocationDot} from "@fortawesome/free-solid-svg-icons";
 import Particles from "react-particles";
 import type { Container, Engine } from "tsparticles-engine";
-import {loadFull} from "tsparticles";
+import {loadFull} from "tsparticles"
+import mine from '../assets/images/mine.jpg'
 
 export const Main = () => {
 
@@ -18,7 +19,7 @@ export const Main = () => {
     }, []);
 
     return (
-            <div className={s.mainBlock}>
+            <div className={s.mainBlock} id={'home'}>
                 <Particles
                     init={particlesInit}
                     className={s.particles}
@@ -91,7 +92,11 @@ export const Main = () => {
                             <FontAwesomeIcon icon={faLocationDot} className={s.locationIcon}/>
                         </div>
                     </div>
-                    <div className={s.photo}></div>
+                    <div className={s.photoDiv}>
+                        <img src={mine} alt={"it's me"} className={s.photo}/>
+                        <div className={s.photoFrame}/>
+                    </div>
+
                 </div>
             </div>
     );

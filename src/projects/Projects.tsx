@@ -4,13 +4,15 @@ import Project from "./Project/Project";
 import commonStyle from "../common/styles/Container.module.css";
 import Title from "../common/components/title/Title";
 import counterImg from "../assets/images/counter.png"
+import cardsImg from "../assets/images/cards.png"
+import plannerImg from "../assets/images/planner.png"
+import networkImg from "../assets/images/network.png"
 
 const Projects = () => {
-let imgUrl;
 
     const planner = {
         color: 'blue',
-        backgroundImage: `url(${imgUrl})`,
+        backgroundImage: `url(${plannerImg})`,
     }
     const counter = {
         color: 'blue',
@@ -18,14 +20,14 @@ let imgUrl;
     }
     const socialNet = {
         color: 'blue',
-        backgroundImage: `url(${imgUrl})`,
+        backgroundImage: `url(${networkImg})`,
     }
     const cards = {
         color: 'blue',
-        backgroundImage: `url(${imgUrl})`,
+        backgroundImage: `url(${cardsImg})`,
     }
     return (
-        <div className={s.projectsBlock}>
+        <div className={s.projectsBlock} id={'projects'}>
             <div className={`${commonStyle.container} ${s.projectsContainer}`}>
               <Title title={'Projects'} />
                 <div className={s.projects}>
@@ -33,7 +35,7 @@ let imgUrl;
                     <Project style={counter} title={"Counter"}  projectLink={'https://aisylu24.github.io/counter'} description={'TypeScript / React / Redux'}/>
                     <Project style={socialNet} projectLink={''} title={"Social Network"}
                              description={'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / React-router-dom / Unit tests'}/>
-                    <Project style={cards} projectLink={''} title={"Cards"}
+                    <Project style={cards} projectLink={'https://anyagalkina.github.io/cards/'} title={"Cards"}
                              description={'TypeScript / React / MUI / Redux-Toolkit / Redux-Thunk / Axios / React-router-dom / Unit tests'}/>
                 </div>
             </div>

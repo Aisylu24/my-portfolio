@@ -18,7 +18,7 @@ const Skills = () => {
     }
 
     return (
-        <div className={s.skillsBlock}>
+        <div className={s.skillsBlock} id={'skills'}>
             <div className={`${commonStyle.container} ${s.skillsContainer}`}>
                 <div className={s.skills}>
                     <Skill title={'React'} iconLink={skillsLinks.react}/>

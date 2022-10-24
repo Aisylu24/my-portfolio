@@ -1,6 +1,7 @@
 @import '../../common/styles/sass/variables';
 @import '../../common/styles/sass/mixins';
 .project {
+    z-index: 1;
     width: 450px;
     min-height: 500px;
     display: flex;

@@ -9,7 +9,7 @@ import {faAt} from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
 
     return (
-        <div className={s.footerBlock}>
+        <div className={s.footerBlock}  id={'contact'}>
             <div className={`${commonStyle.container} ${s.footerContainer}`}>
                 <div className={s.myName}>Timirshina Aysylu</div>
                 <div className={s.socialNetworks}>

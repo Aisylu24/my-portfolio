@@ -2,7 +2,7 @@
 @import '../common/styles/sass/mixins';
 
 .contactsBlock {
-  height: 70vh;
+  height: 80vh;
   background-color: $basicColor;
   .contactsContainer {
   }
@@ -17,6 +17,7 @@
       width: 80%;
     }
     .button {
+      z-index: 1;
       background-color: $mainColor;
       padding: 10px 20px;
       margin: 5px;
