@@ -33,7 +33,7 @@ const Projects = () => {
                 <div className={s.projects}>
                     <Project style={planner} title={"Planner"}  projectLink={'https://aisylu24.github.io/todolist-project/'} description={'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / React-router-dom / Unit tests'}/>
                     <Project style={counter} title={"Counter"}  projectLink={'https://aisylu24.github.io/counter'} description={'TypeScript / React / Redux'}/>
-                    <Project style={socialNet} projectLink={''} title={"Social Network"}
+                    <Project style={socialNet} projectLink={'https://aisylu24.github.io/social-network/'} title={"Social Network"}
                              description={'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / React-router-dom / Unit tests'}/>
                     <Project style={cards} projectLink={'https://anyagalkina.github.io/cards/'} title={"Cards"}
                              description={'TypeScript / React / MUI / Redux-Toolkit / Redux-Thunk / Axios / React-router-dom / Unit tests'}/>
