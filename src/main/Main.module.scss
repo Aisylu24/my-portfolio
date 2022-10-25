@@ -11,12 +11,15 @@
     bottom: 0;
   }
   .text {
-    width: 450px;
+    width: 500px;
     padding: 20px;
     font-family: "Cordia New", sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 35px;
     color: $secondColor;
+    h1 {
+      margin: auto 0;
+      font-weight: bolder;
+    }
     .locationIcon {
       height: 30px;
       width: 30px;

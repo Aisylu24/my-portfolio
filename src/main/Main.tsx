@@ -7,6 +7,8 @@ import Particles from "react-particles";
 import type { Container, Engine } from "tsparticles-engine";
 import {loadFull} from "tsparticles"
 import mine from '../assets/images/mine.jpg'
+import Title from "../common/components/title/Title";
+import ReactTypingEffect from "react-typing-effect";
 
 export const Main = () => {
 
@@ -84,9 +86,9 @@ export const Main = () => {
                 />
                 <div className={commonStyle.container}>
                     <div className={s.text}>
-                        <span>Welcome!</span>
+                        <Title title={'Welcome!'} />
                         <h1>I am Timirshina Aysylu</h1>
-                        <p>FRONTEND - DEVELOPER</p>
+                        <ReactTypingEffect text={"FRONTEND - DEVELOPER"}/>
                         <div>
                             <span> Kazan, Tatarstan </span>
                             <FontAwesomeIcon icon={faLocationDot} className={s.locationIcon}/>
